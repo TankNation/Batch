@@ -27,13 +27,13 @@ SET Value_Name_7="SolidWorks"
 REM #~ University Research License
 SET RL=xxxx xxxx xxxx xxxx
 SET RL_Ext=xxxx xxxx
-SET RL_LM=portnumber@domain.edu
+SET RL_LM=portnumber@server.domain.edu
 SET RL_SN_Value=%RL% %RL_Ext%
  
 REM #~ University Academic License
 SET AL=xxxx xxxx xxxx xxxx
 SET AL_Ext=xxxx xxxx
-SET AL_LM=portnumber@domain.edu
+SET AL_LM=portnumber@server.domain.edu
 SET AL_SN_Value=%AL% %AL_Ext%
  
 FOR /f "tokens=3*" %%a in ('reg query %Key_Name_2% /v %Value_Name_2%') DO SET "Serial=%%b"
